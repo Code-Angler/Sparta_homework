@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+
+    <title>휴대폰 스토어</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">
+    <link rel="icon" href="/homework/samsung.ico" type="image/x-icon">
+
+    <style>
+        * {
+            font-family: 'Gugi', cursive;
+        }
+
+        .main_img {
+            text-align: center;
+            margin: 20px auto 50px auto;
+            width: 600px;
+            height: 450px;
+            display: block;
+
+        }
+
+        .item-desc {
+            width: 600px;
+            margin-bottom: 50px;
+        }
+
+        .price {
+            font-size: 15px;
+            color: maroon;
+            font-weight: bold;
+        }
+
+        .item-order {
+            width: 600px;
+            margin-bottom: 20px;
+        }
+
+        .warp {
+            margin: auto;
+            width: 600px;
+        }
+
+        .order-btn {
+            margin: auto;
+            width: 100px;
+            display: block;
+        }
+    </style>
+    <script>
+        function order() {
+            alert('주문이 완료되었습니다!!')
+        }
+    </script>
+</head>
+
+<body>
+<div>
+    <img class="main_img"
+         src="data:image/jpeg;base64,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"
+    >
+</div>
+<div class="warp">
+    <div class="item-desc">
+        <h1>갤럭시 S21 초특가 <span class="price"> 가격 : 359900원 / SKT기변</span></h1>
+        <h3>오늘만 이가격입니다. 원가 140만원 최신형 휴대폰 !! 한정수량 100개 판매 BTS 한정판 선택가능합니다. 어서어서 서두르세요</h3>
+    </div>
+    <div class="item-order">
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default">주문자이름</span>
+            </div>
+            <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect01">수량</label>
+            </div>
+            <select class="custom-select" id="inputGroupSelect01">
+                <option selected>---수량을 선택하세요---</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default">주소</span>
+            </div>
+            <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default">전화번호</span>
+            </div>
+            <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+        </div>
+    </div>
+    <button type="button" onclick="order()" class="btn btn-primary order-btn">주문하기</button>
+</div>
+</body>
+
+</html>
