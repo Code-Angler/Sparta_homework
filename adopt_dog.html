@@ -20,10 +20,10 @@
             integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
             crossorigin="anonymous"></script>
 
-    <title>휴대폰 스토어</title>
+    <title>가족을 입양하세요!</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">
-    <link rel="icon" href="/Sparta_homework/samsung.ico" type="image/x-icon">
+    <link rel="icon" href="/Sparta_homework/adopt_dog.ico" type="image/x-icon">
 
     <style>
         * {
@@ -79,6 +79,9 @@
         function order() {
             alert('주문이 완료되었습니다!!')
         }
+        function refresh() {
+            location.reload()
+        }
 
         let img_url_1 = 'https://blog.kakaocdn.net/dn/n6H6f/btqTEMt0EgL/ZILJ0IrWCKQbNWdleyZeok/img.png'
         let img_url_2 = 'https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbS6rWZ%2FbtqTvRRqC2E%2FfvSDQd3u8So4f40cD4la70%2Fimg.jpg'
@@ -122,6 +125,7 @@
     <div class="item-desc">
         <h1 class="donot">사지 마세요 !! 입양하세요<br><span class="family">가족이 될 우리 강아지 이름은</span><span class="name_dog" id="name_dog"> </span></h1>
         <h3>한 해에 버려지는 유기동물의 수는 '10만 마리', 따스한 손길로 유기견에게 새로운 가족이 되어주세요!!</h3>
+    <button type="button" onclick="refresh()" class="btn btn-info">다른강아지 보기</button>
     </div>
     <div class="item-order">
         <div class="input-group mb-3">
